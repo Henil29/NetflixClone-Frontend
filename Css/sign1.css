@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+
+.main {
+    height: 100px;
+}
+
+nav {
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 167px;
+    height: 97px;
+    margin-left: 60px;
+
+}
+
+.sign-button {
+    
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0px 60px;
+}
+
+.separation {
+    height: 0.07px;
+    background-color: rgba(95, 92, 92, 0.458);
+    position: relative;
+    z-index: 20;
+}
+
+
+.data {
+    position: absolute;
+    min-width: 27%;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    text-align: left;
+    top: 41.7%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.text
+{
+    display: flex;
+    margin-top: 4%;
+}
+.text1   {
+    color: rgb(51,51,51);
+    font-size: 13px;
+    font-weight: 400;
+}
+.text2
+{
+    color: rgb(51,51,51);
+    font-size: 32px;
+    font-weight: 700;
+}
+.text3
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(51,51,51);
+}
+
+
+input {
+    margin-top: 5%;
+    width: 95%;
+    height: 45px;
+    padding-left: 2%;
+    background-color: white;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    font-size: 115%;
+    margin-top: 15px;
+    width: 97.7%;
+    height: 45px;
+    color: white;
+    background-color: rgb(223, 4, 4);
+    border: none;
+    border-radius: 5px;
+}

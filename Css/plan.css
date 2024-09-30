@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+
+.main {
+    height: 100px;
+}
+
+nav {
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 167px;
+    height: 97px;
+    margin-left: 60px;
+
+}
+
+.sign-button {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0px 60px;
+}
+
+.separation {
+    height: 0.07px;
+    background-color: rgba(95, 92, 92, 0.458);
+    position: relative;
+    z-index: 20;
+}
+
+.box
+{
+    height: 966px;
+    width: 1280px;
+    margin: auto;
+    margin-top: 25px;
+}
+.text-1
+{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 3px;
+}
+.text-2
+{
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.plan1
+{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.first
+{
+    height: 635px;
+    width: 300px;
+    border: 0.5px solid rgba(0, 0, 0, 0.7);
+    /* margin-right: 20px; */
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+a
+{
+    text-decoration: none;
+}
+.one .color
+{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    margin-top: 10PX;
+    min-height: 83px;
+    padding: 10px 16px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+
+.second .color
+{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    min-height: 83px;
+    padding: 10px 16px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(176, 56, 220) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+.third .color
+{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    min-height: 83px;
+    padding: 10px 16px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(109, 59, 227) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+.forth .color
+{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    min-height: 83px;
+    padding: 10px 16px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(33, 114, 227) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+
+.details
+{
+    margin: 25px;
+}
+.price1
+{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 550;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.price2
+{
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+.extra
+{
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #f3f3f3;
+    max-width: 100%;
+    margin: auto;
+    padding: 34px;
+}
+
+.que {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(218, 213, 213);
+}
+.footer a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: max-content;
+}

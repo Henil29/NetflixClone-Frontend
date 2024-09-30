@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+.main
+{
+    height: 100px;
+}
+nav
+{
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav img
+{
+    width: 167px;
+    height: 97px;
+    margin-left: 60px;
+    
+}
+.sign-button
+{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0px 60px;
+}
+.separation {
+    height: 0.07px;
+    background-color: rgba(95, 92, 92, 0.458);
+    position: relative;
+    z-index: 20;
+}
+.steplogo
+{
+    background: url(/Photo/Lock.png) no-repeat 50% 50%;
+    background-size: 50px;
+    height: 90px;
+    margin-top: 50px;
+}
+.text1
+{
+    font-size: 13px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.text2
+{
+    font-size: 32px;
+    font-weight: 550;
+}
+.text3
+{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 100;
+    font-size: 19px;   
+}
+.text4
+{
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+.pay
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pay1{
+    margin-top: 15px;
+}
+.upi
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 48px;
+    width: 368px;
+    border: 2px solid #d2d2d2;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 100;
+    justify-content: space-between;
+}
+.just
+{
+    margin-right: 10px;
+}
+.upi> :nth-child(1)
+{
+    margin: 13px 0 13px 15px;
+}
+.upi> :nth-child(2)
+{
+    margin: 9px 15px 13px 0;
+    font-size: 25px;
+}
